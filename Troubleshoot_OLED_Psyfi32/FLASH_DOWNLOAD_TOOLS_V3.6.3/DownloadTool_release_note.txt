@@ -1,0 +1,5 @@
+Vers: 3.6.3
+Time: 20180109
+Desc:
+	1. Can load altogether 12 bin file at one time
+	2. Show combine warning under combine folder
