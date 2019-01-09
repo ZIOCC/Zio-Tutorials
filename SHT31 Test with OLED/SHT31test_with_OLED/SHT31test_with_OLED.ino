@@ -27,7 +27,7 @@ void setup() {
   Serial.begin(9600);
 
   // by default, we'll generate the high voltage from the 3.3v line internally! (neat!)
-  display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  // initialize with the I2C addr 0x3C (for the 128x32)
+  display.begin();  // initialize with the I2C addr 0x3C (for the 128x32)
   // init done
 
   // Clear the buffer.
@@ -69,7 +69,7 @@ void loop() {
     Serial.print("Hum. % = "); Serial.println(h);
     display.print("Hum. % = "); display.println(h);
   } else { 
-    display.setCursor(0,10);
+    display.setCursor(0,18);
     Serial.println("Failed to read humidity");
     display.println("Failed to read humidity");
   }
