@@ -46,7 +46,13 @@
 //#define CCS811_ADDR 0x5B //Default I2C Address
 #define CCS811_ADDR 0x5A //Alternate I2C Address
 
-Adafruit_SSD1306 display = Adafruit_SSD1306();
+#define SCREEN_WIDTH 128 // OLED display width, in pixels
+#define SCREEN_HEIGHT 32 // OLED display height, in pixels
+
+// Declaration for an SSD1306 display connected to I2C (SDA, SCL pins)
+#define OLED_RESET     4 // Reset pin # (or -1 if sharing Arduino reset pin)
+Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
+
 
 CCS811 myCCS811(CCS811_ADDR);
 
