@@ -42,11 +42,28 @@ void setup () {
 
   if (! rtc.begin()) {
     Serial.println("Couldn't find RTC");
+    
+    display.setTextSize(1);
+    display.setTextColor(WHITE);
+    display.setCursor(0,0);
+    display.print("Couldn't find RTC");
+    display.display();
+    delay(2000);
+    display.clearDisplay();
     while (1);
+
   }
 
   if (rtc.lostPower()) {
     Serial.println("RTC lost power, lets set the time!");
+    display.setTextSize(1);
+    display.setTextColor(WHITE);
+    display.setCursor(0,0);
+    display.print("RTC lost power, lets set the time!");
+    display.display();
+    delay(2000);
+    display.clearDisplay();
+    
     // following line sets the RTC to the date & time this sketch was compiled
     rtc.adjust(DateTime(F(__DATE__), F(__TIME__)));
     // This line sets the RTC with an explicit date & time, for example to set
@@ -69,7 +86,9 @@ void showTime(){
 
   DateTime now = rtc.now();
 
-  display.print("Time:");
+  display.setTextSize(2);
+  display.setTextColor(WHITE);
+  display.setCursor(0,0);
   display.print(now.hour(), DEC);
   display.print(':');
   display.print(now.minute(), DEC);
@@ -81,10 +100,25 @@ void showTime(){
   delay(200);
 }
 
+void showDay(){
+
+    DateTime now = rtc.now();
+    
+    display.setTextSize(1);
+    display.setTextColor(WHITE);
+    display.setCursor(0,25);
+    display.print(daysOfTheWeek[now.dayOfTheWeek()]);
+
+    display.display();
+}
+
 void showDate(){
 
   DateTime now = rtc.now();
 
+  display.setTextSize(1);
+  display.setTextColor(WHITE);
+  display.setCursor(0,25);
   display.print("Date:");
   display.print(now.day(), DEC);
   display.print(':');
@@ -94,7 +128,6 @@ void showDate(){
   display.print("    ");
 
   display.display();
-  delay(200);
 }
 
 void showSerial(){
