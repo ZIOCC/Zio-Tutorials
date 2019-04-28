@@ -6,7 +6,7 @@
 
 = Project: {Project}
 
-Describe your project
+Project Overview
 
 == Step 1: Installation
 For this project, we will build a simple digital code lock that users can enter and key in. In this tutorial, we will show users how a digital code lock system works in an Arduino Interface.
@@ -17,12 +17,6 @@ For this project, we will build a simple digital code lock that users can enter 
 - Create a program that asks users to enter a six-digit password to unlock 
 - Be able to create a new six-digit password
 
-
-For example:
-
-1. Open this file
-2. Edit as you like
-3. Release to the World!
 
 == Step 2: Assemble the circuit
 
