@@ -5,8 +5,7 @@
 :License: Public Domain
 
 = Project: {Project}
-
-Project Overview
+Check the full tutorial blog for this project on our blog [here](https://www.smart-prototyping.com/blog/Build-A-Digital-Code-Lock).
 
 == Step 1: Installation
 For this project, we will build a simple digital code lock that users can enter and key in. In this tutorial, we will show users how a digital code lock system works in an Arduino Interface.
