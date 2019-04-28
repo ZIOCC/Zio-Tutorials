@@ -6,20 +6,22 @@
 
 = Project: {Project}
 
-Describe your project
+Check out the full tutorial blog for this project on our blog 
+link: https://www.smart-prototyping.com/blog/Build-A-Digital-Code-Lock.
 
 == Step 1: Installation
-Please describe the steps to install this project.
+For this project, we will build a simple digital code lock that users can enter and key in. In this tutorial, we will show users how a digital code lock system works in an Arduino Interface.
 
-For example:
+- By the end of this tutorial you will be able to :
+- Set up a digital code lock with Zio and basic 12 keys keypad
+- Be able to interface with Arduino IDE to program Zio with keypad
+- Create a program that asks users to enter a six-digit password to unlock 
+- Be able to create a new six-digit password
 
-1. Open this file
-2. Edit as you like
-3. Release to the World!
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram layout.png attached to the sketch
+Assemble the circuit following the diagram schematics.png attached to the sketch
 
 == Step 3: Load the code
 
@@ -28,27 +30,25 @@ Upload the code contained in this sketch on to your board
 === Folder structure
 
 ....
- sketch123                => Arduino sketch folder
-  ├── sketch123.ino       => main Arduino file
-  ├── schematics.png      => (optional) an image of the required schematics
-  ├── layout.png          => (optional) an image of the layout
-  └── ReadMe.adoc         => this file
+ Digital_Code_Locker                => Arduino sketch folder
+  ├── digital_code_locker.ino       => main Arduino file
+  ├── schematics.png                => an image of the required schematics
+  ├── unotokeypadlayout.png         => an image of the keypad to Uno connection layout
+  └── ReadMe.adoc                   => this file
 ....
 
 === License
 This project is released under a {License} License.
 
-=== Contributing
-To contribute to this project please contact aswana https://id.arduino.cc/aswana
-
 === BOM
-Add the bill of the materials you need for this project.
 
 |===
-| ID | Part name      | Part number | Quantity
-| R1 | 10k Resistor   | 1234-abcd   | 10
-| L1 | Red LED        | 2345-asdf   | 5
-| A1 | Arduino Zero   | ABX00066    | 1
+|Part name                           |Quantity|
+|Zuino M Uno                         | 1|
+|Zio Qwiic 0.91" OLED Display        | 1|
+|4x3 Keypad                          | 1|
+|Male to Female Jumper Wires         | 7|
+|200mm Qwiic Cables                  | 1|
 |===
 
 
