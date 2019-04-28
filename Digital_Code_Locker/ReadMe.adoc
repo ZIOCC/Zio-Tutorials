@@ -21,7 +21,7 @@ By the end of this tutorial you will be able to :
 
 == Step 2: Assemble the circuit
 
-Assemble the circuit following the diagram schematics.png attached to the sketch
+Assemble the circuit following the diagram schematics.jpg attached to the sketch
 
 == Step 3: Load the code
 
