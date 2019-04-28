@@ -6,7 +6,7 @@
 
 = Project: {Project}
 
-Check out the full tutorial blog for this project on our blog [here](https://www.smart-prototyping.com/blog/Build-A-Digital-Code-Lock).
+Check out the full tutorial blog for this project on our blog link:https://www.smart-prototyping.com/blog/Build-A-Digital-Code-Lock(here).
 
 == Step 1: Installation
 For this project, we will build a simple digital code lock that users can enter and key in. In this tutorial, we will show users how a digital code lock system works in an Arduino Interface.
@@ -42,12 +42,12 @@ This project is released under a {License} License.
 === BOM
 
 |===
-Part name                           |Quantity
-Zuino M Uno                         | 1
-Zio Qwiic 0.91" OLED Display        | 1
-4x3 Keypad                          | 1
-Male to Female Jumper Wires         | 7
-200mm Qwiic Cables                  | 1
+|Part name                           |Quantity|
+|Zuino M Uno                         | 1
+|Zio Qwiic 0.91" OLED Display        | 1
+|4x3 Keypad                          | 1
+|Male to Female Jumper Wires         | 7
+|200mm Qwiic Cables                  | 1
 |===
 
 
