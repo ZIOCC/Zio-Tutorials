@@ -4,7 +4,7 @@
 :Revision: version#
 :License: Public Domain
 
-= Project: {Project}
+= Project: Digital Code Lock
 
 Check out the full tutorial blog for this project on our blog 
 link: https://www.smart-prototyping.com/blog/Build-A-Digital-Code-Lock.
