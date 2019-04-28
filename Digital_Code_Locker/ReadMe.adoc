@@ -12,7 +12,7 @@ link: https://www.smart-prototyping.com/blog/Build-A-Digital-Code-Lock.
 == Step 1: Installation
 For this project, we will build a simple digital code lock that users can enter and key in. In this tutorial, we will show users how a digital code lock system works in an Arduino Interface.
 
-- By the end of this tutorial you will be able to :
+By the end of this tutorial you will be able to :
 - Set up a digital code lock with Zio and basic 12 keys keypad
 - Be able to interface with Arduino IDE to program Zio with keypad
 - Create a program that asks users to enter a six-digit password to unlock 
