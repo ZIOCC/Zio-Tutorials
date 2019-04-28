@@ -32,8 +32,8 @@ Upload the code contained in this sketch on to your board
 ....
  Digital_Code_Locker                => Arduino sketch folder
   ├── digital_code_locker.ino       => main Arduino file
-  ├── schematics.png                => an image of the required schematics
-  ├── unotokeypadlayout.png         => an image of the keypad to Uno connection layout
+  ├── schematics.jpg                => an image of the required schematics
+  ├── unotokeypadlayout.jpg         => an image of the keypad to Uno connection layout
   └── ReadMe.adoc                   => this file
 ....
 
