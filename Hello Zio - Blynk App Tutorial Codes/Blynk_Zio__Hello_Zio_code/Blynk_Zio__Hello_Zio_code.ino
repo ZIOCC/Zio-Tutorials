@@ -69,8 +69,8 @@ uint16_t ADC_VALUE= 0;
 
 // Your WiFi credentials.
 // Set password to "" for open networks.
-#define SET_SSID "NOA Labs (2.4GHz)";
-#define SET_PASS "noa-labs.com";
+#define SET_SSID "your-wifi-name";
+#define SET_PASS "yourw-wifi-password";
 
 /*DO NOT CHANGE THIS CODE HERE*/
 char auth[] = SET_AUTH_TOKEN;
